@@ -35,9 +35,20 @@ catch (IndexOutOfRangeException ex)
 
 Console.WriteLine("\n\nChallenge 2: Dynamic Lists");
 List<string> months = new List<string>();
-
-
-
+months.Add("January");
+months.Add("February");
+months.Add("March");
+months.Add("April");
+months.Add("May");
+months.Add("June");
+months.Add("July");
+months.Add("August");
+months.Add("September");
+months.Add("October");
+months.Add("November");
+months.Add("December");
+// Print number of months in the list.
+Console.WriteLine("Number of months: " + months.Count);
 
 Console.WriteLine("\n\nChallenge 3: Dictionaries and key-value pairs");
 
