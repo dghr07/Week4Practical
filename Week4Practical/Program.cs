@@ -64,6 +64,9 @@ inventory.Add("Health Potion", 5);
 inventory.Add("Mana Potion", 2);
 inventory.Add("Gold Coin", 100);
 
+inventory["Health Potion"] = 20; // Update the quantity of Health Potion to 20
+Console.WriteLine("Quantity of health potions: " + inventory["Health Potion"]);
+
 
 Console.WriteLine("\n\nChallenge 4: Exception Handling");
 
