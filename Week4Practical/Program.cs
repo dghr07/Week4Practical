@@ -2,14 +2,14 @@
 string[] carManufacturers = { "Ford", "Toyota", "BMW", "Honda"};
 
 // Displaying the car manufacturers in the original order.
-Console.WriteLine("\nOriginal car manufacturers:");
+Console.WriteLine("Original car manufacturers:");
 foreach (string manufacturer in carManufacturers)
 {
     Console.WriteLine(manufacturer);
 }
 
 // Displaying the car manufacturers in sorted order.
-Console.WriteLine("\nSorted car manufacturers:");
+Console.WriteLine("Sorted car manufacturers:");
 Array.Sort(carManufacturers);
 foreach (string manufacturer in carManufacturers)
 {
@@ -17,7 +17,7 @@ foreach (string manufacturer in carManufacturers)
 }
 
 // Intentionally causing an IndexOutOfRangeException by accessing an index that is out of bounds.
-Console.WriteLine("\nAttempting to access an out-of-bounds index:");
+Console.WriteLine("Attempting to access an out-of-bounds index:");
 try
 {
     for (int carIndex = 0; carIndex <= carManufacturers.Length; carIndex++)
@@ -30,7 +30,6 @@ catch (IndexOutOfRangeException ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 
 }
-
 
 
 Console.WriteLine("\n\nChallenge 2: Dynamic Lists");
@@ -55,7 +54,7 @@ months.Remove("November");
 // Print number of months after removal.
 Console.WriteLine("Number of months after removal: " + months.Count);
 
-
+Console.WriteLine("The index of 'December' is: " + months.IndexOf("December"));
 
 
 
