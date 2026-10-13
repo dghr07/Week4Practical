@@ -34,7 +34,7 @@ catch (IndexOutOfRangeException ex)
 
 
 Console.WriteLine("\n\nChallenge 2: Dynamic Lists");
-
+List<string> months = new List<string>();
 
 
 
