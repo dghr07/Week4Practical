@@ -60,7 +60,9 @@ string[] monthNamesArray = months.ToArray();
 
 Console.WriteLine("\n\nChallenge 3: Dictionaries and key-value pairs");
 Dictionary<string, int> inventory = new Dictionary<string, int>();
-
+inventory.Add("Health Potion", 5);
+inventory.Add("Mana Potion", 2);
+inventory.Add("Gold Coin", 100);
 
 
 Console.WriteLine("\n\nChallenge 4: Exception Handling");
