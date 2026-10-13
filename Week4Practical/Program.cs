@@ -56,7 +56,7 @@ Console.WriteLine("Number of months after removal: " + months.Count);
 
 Console.WriteLine("The index of 'December' is: " + months.IndexOf("December"));
 
-
+string[] monthNamesArray = months.ToArray();
 
 
 
