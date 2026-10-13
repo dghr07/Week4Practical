@@ -50,6 +50,17 @@ months.Add("December");
 // Print number of months in the list.
 Console.WriteLine("Number of months: " + months.Count);
 
+months.Remove("September");
+months.Remove("November");
+// Print number of months after removal.
+Console.WriteLine("Number of months after removal: " + months.Count);
+
+
+
+
+
+
+
 Console.WriteLine("\n\nChallenge 3: Dictionaries and key-value pairs");
 
 
