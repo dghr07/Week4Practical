@@ -71,8 +71,19 @@ inventory.Add("Gold Coin", 100);
 inventory["Health Potion"] = 20; // Update the quantity of Health Potion to 20
 Console.WriteLine("Quantity of health potions: " + inventory["Health Potion"]);
 
-// Console.WriteLine("Quantity of Iron Sword: " + inventory["Iron Sword"]);
-// This will throw a KeyNotFoundException because "Iron Sword" is not in the dictionary.
+try
+{ 
+ Console.WriteLine("Quantity of Iron Sword: " + inventory["Iron Sword"]);
+    // This will throw a KeyNotFoundException because "Iron Sword" is not in the dictionary.
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Error: Item not found in inventory.");
+}
+finally
+{
+    Console.WriteLine("Inventory processing complete.");
+}
 
 
 Console.WriteLine("\n\nChallenge 4: Exception Handling");
