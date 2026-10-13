@@ -25,10 +25,14 @@ try
         Console.WriteLine(carManufacturers[carIndex]);
     }
 }
-catch (IndexOutOfRangeException ex)
+catch (Exception ex)
 {
-    Console.WriteLine("An error occurred: " + ex.Message);
+    Console.WriteLine("Error: Attempted to access an array index that does not exist.");
 
+}
+finally
+{
+    Console.WriteLine("Array processing complete.");
 }
 
 
@@ -71,10 +75,9 @@ Console.WriteLine("Quantity of health potions: " + inventory["Health Potion"]);
 // This will throw a KeyNotFoundException because "Iron Sword" is not in the dictionary.
 
 
-
 Console.WriteLine("\n\nChallenge 4: Exception Handling");
 
-
+Console.WriteLine("Try-catch block around Challenge 1 code to handle the IndexOutOfRangeException.");
 
 
 Console.WriteLine("\n\nChallenge 5: Storing custom data types and reference types");
