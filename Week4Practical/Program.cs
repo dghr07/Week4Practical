@@ -1,4 +1,5 @@
-﻿string[] carManufacturers = { "Ford", "Toyota", "BMW", "Honda"};
+﻿Console.WriteLine("Challenge 1: Using arrays and forcing errors:");
+string[] carManufacturers = { "Ford", "Toyota", "BMW", "Honda"};
 
 // Displaying the car manufacturers in the original order.
 Console.WriteLine("\nOriginal car manufacturers:");
@@ -29,3 +30,24 @@ catch (IndexOutOfRangeException ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 
 }
+
+
+
+Console.WriteLine("\n\nChallenge 2: Dynamic Lists");
+
+
+
+
+
+Console.WriteLine("\n\nChallenge 3: Dictionaries and key-value pairs");
+
+
+
+
+Console.WriteLine("\n\nChallenge 4: Exception Handling");
+
+
+
+
+Console.WriteLine("\n\nChallenge 5: Storing custom data types and reference types");
+
