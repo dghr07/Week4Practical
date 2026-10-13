@@ -58,10 +58,8 @@ Console.WriteLine("The index of 'December' is: " + months.IndexOf("December"));
 
 string[] monthNamesArray = months.ToArray();
 
-
-
 Console.WriteLine("\n\nChallenge 3: Dictionaries and key-value pairs");
-
+Dictionary<string, int> inventory = new Dictionary<string, int>();
 
 
 
